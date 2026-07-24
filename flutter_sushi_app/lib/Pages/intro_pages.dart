@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({super.key});
@@ -13,7 +14,14 @@ class IntroPage extends StatelessWidget {
       child: Column(
       children: [
       //Shop Name
-      Text("SORA SUSHI")
+      Text(
+        "SORA SUSHI",
+       style: GoogleFonts.dmSerifDisplay( 
+       fontSize: 28,
+       color: Colors.white
+       ),
+      
+      ),
 
       //Shop Icon
 
