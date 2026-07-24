@@ -10,6 +10,16 @@ class IntroPage extends StatelessWidget {
      backgroundColor: const Color.fromARGB(255, 158, 38, 29),
      body:Column(
       children: [
+      //Shop Name
+
+      //Shop Icon
+
+      //Title
+
+      //Subtitle
+
+
+      //Get started Button
 
 
 
