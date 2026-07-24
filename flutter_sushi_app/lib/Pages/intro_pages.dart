@@ -7,19 +7,26 @@ class IntroPage extends StatelessWidget {
 @override
   Widget build(BuildContext context) {
     return Scaffold(
-     backgroundColor: const Color.fromARGB(255, 158, 38, 29) 
+     backgroundColor: const Color.fromARGB(255, 158, 38, 29),
+     body:Column(
+      children: [
+
+
+
+
+
+      ],// Children
+     )
+
+
+
+
+
+
+
+
+
 
     );
-
-
-
-
   } //widget
-
-
-
-
-
-
-
 }//IntroPage
