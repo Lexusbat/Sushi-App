@@ -8,9 +8,12 @@ class IntroPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
      backgroundColor: const Color.fromARGB(255, 158, 38, 29),
-     body:Column(
+     body: Padding(  
+      padding:const EdgeInsets.all(8.0) ,
+      child: Column(
       children: [
       //Shop Name
+      Text("SORA SUSHI")
 
       //Shop Icon
 
@@ -26,8 +29,8 @@ class IntroPage extends StatelessWidget {
 
 
       ],// Children
-     )
-
+     ),
+     ),
 
 
 
